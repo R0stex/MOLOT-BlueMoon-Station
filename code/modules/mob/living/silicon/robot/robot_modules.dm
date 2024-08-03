@@ -1461,6 +1461,7 @@
 		"(Janitor) Drake" = image(icon = 'modular_sand/icons/mob/cyborg/drakemech.dmi', icon_state = "drakejanitbox"),
 		"Assaultron" = image(icon = 'modular_splurt/icons/mob/robots.dmi', icon_state = "assaultron_service"), // SPLURT Addon
 		"(Janitor) Haydee" = image(icon = 'modular_splurt/icons/mob/robots.dmi', icon_state = "haydeejan"), // SPLURT Addon
+		"(Slutvice) Haydee" = image(icon= 'modular_splurt/icons/mob/robots.dmi', icon_state = "HaydeeServ"), // SPLURT Addon (Also added to Bubber but made for here)
 		"(Janitor) Meka" = image(icon = 'modular_splurt/icons/mob/robots_32x64.dmi', icon_state = "mekajani"), // SPLURT Addon
 		"(Janitor) M-Meka" = image(icon = 'modular_splurt/icons/mob/robots_32x64.dmi', icon_state = "mmekajani"), // SPLURT Addon
 		"(Janitor) F-Meka" = image(icon = 'modular_splurt/icons/mob/robots_32x64.dmi', icon_state = "fmekajani"), // SPLURT Addon
@@ -1724,6 +1725,10 @@
 			cyborg_base_icon = "haydeejan"
 			cyborg_icon_override = 'modular_splurt/icons/mob/robots.dmi'
 			hat_offset = 3
+		if("(Slutvice) Haydee") // SPLURT Addon, Also added to Bubberstation
+			cyborg_base_icon = "HaydeeServ"
+			cyborg_icon_override = 'modular_splurt/icons/mob/robots.dmi'
+			hat_offset = 3
 		if("(Janitor) Meka")
 			cyborg_base_icon = "mekajani"
 			cyborg_icon_override = 'modular_splurt/icons/mob/robots_32x64.dmi'
@@ -1777,6 +1782,11 @@
 			cyborg_base_icon = "smolraptor_sci"
 			cyborg_icon_override = 'modular_zubbers/icons/mob/smolraptor.dmi'
 			dogborg = TRUE
+		if("(Service) Meka") //ADD BLUEMOON Note: Был забыт для добавления в список
+			cyborg_base_icon = "mekaserve"
+			cyborg_icon_override = 'modular_splurt/icons/mob/robots_32x64.dmi'
+			hat_offset = 3
+			hasrest = TRUE
 		if("(Waiter) Meka")
 			cyborg_base_icon = "mekaserve_alt"
 			cyborg_icon_override = 'modular_splurt/icons/mob/robots_32x64.dmi'
